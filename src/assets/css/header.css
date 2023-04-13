@@ -5,12 +5,22 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
+    align-items: center;
 }
 .header_contain ul {
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    align-items: center;
 }
+
 .header_contain li {
     color: #FFFFFF;
     list-style-type: none;
+    padding: 0 1rem;
+}
+.border_line {
+    border-right: 1px solid #FFFFFF ;
+    height: 3rem;
+    text-align: center;
 }

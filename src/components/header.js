@@ -20,8 +20,9 @@ const Header = () => {
         </div>
         <div>
           <ul>
-            <li>Log in / registration</li>
-            <li></li>
+            <li>Log in / Registration</li>
+            <div className="border_line"> <li ></li></div>
+           
             <li>Book table</li>
           </ul>
         </div>
