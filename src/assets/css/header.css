@@ -6,21 +6,31 @@
     justify-content: space-between;
     padding: 1rem 2rem;
     align-items: center;
+    cursor: pointer;
 }
 .header_contain ul {
     display: flex;
     justify-content: space-between;
-    text-align: center;
     align-items: center;
 }
-
 .header_contain li {
     color: #FFFFFF;
     list-style-type: none;
     padding: 0 1rem;
 }
 .border_line {
-    border-right: 1px solid #FFFFFF ;
+    background-color:  #FFFFFF ;
     height: 3rem;
-    text-align: center;
+    width: 0.01rem;
+}
+.header_contain li:active {
+    color: #DCCA87;
+}
+.home_list li{
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0.04em;
+text-align: left;
+
 }

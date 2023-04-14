@@ -1,6 +1,7 @@
 import React from "react";
 import Glogo from "../assets/images/Geríchtlogo.svg";
 import "../assets/css/header.css";
+// import borderline from "../assets/images/"  
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
             <li>Landing</li>
           </ul>
         </div>
-        <div>
+        <div className="login_list">
           <ul>
             <li>Log in / Registration</li>
             <div className="border_line"> <li ></li></div>
