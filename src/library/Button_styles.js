@@ -1,16 +1,16 @@
 import Styled from "styled-components";
 
 const Button = Styled.button`
-background: #DCCA87
+background: #DCCA87;
 border: none;
-border-radius: 5px;
-height: 44px
+outline:none;
+height: 44px;
 width: ${(props) => props.buttonWidth};
 color: #0C0B08;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding: 8px 32px;
+padding: 8px 20px;
 font-family: 'Cormorant Upright';
 font-style: normal;
 font-weight: 700;

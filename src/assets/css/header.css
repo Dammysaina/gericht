@@ -16,7 +16,7 @@
 .header_contain li {
   color: #ffffff;
   list-style-type: none;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
 }
 .border_line {
   background-color: #ffffff;
@@ -40,19 +40,108 @@
   letter-spacing: 0.05em;
   text-align: left;
 }
+
+.home_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 10rem;
+  background-color: #0c0c0c;
+  /* position: absolute; */
+  z-index: -1;
+}
+.new_flavour {
+  /* Chase the new Flavour */
+
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  /* identical to box height, or 30px */
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  /* FFFFFF */
+  color: #ffffff;
+}
+.fine_dining {
+  /* The key to Fine dining */
+
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 130%;
+  /* or 117px */
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  /* DCCA87 */
+  color: #dcca87;
+}
+.chase_flavour {
+  width: 27.5rem;
+}
+.flavour_text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  /* or 28px */
+  letter-spacing: 0.04em;
+  /* AAAAAA */
+  color: #aaaaaa;
+  padding: 1rem 0;
+}
+.fish_fillet {
+  align-items: center;
+}
+.fish_fillet img {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  left: 657px;
+  top: 150px;
+}
 .topborder {
   position: absolute;
-  width: 435px;
-  height: 435px;
+  width: 150px;
+  height: 150px;
   left: 865px;
-  top: 0px;
+  top: 60px;
   background-color: #dcca87;
+  z-index: -1;
 }
 .bottomborder {
-    position: absolute;
-width: 435px;
-height: 435px;
-left: 633px;
-top: 301px;
-background-color: #DCCA87;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 633px;
+  top: 301px;
+  background-color: #dcca87;
+  z-index: -1;
+}
+.number_list li {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  /* identical to box height, or 28px */
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  /* F5EFDB */
+  color: #f5efdb;
+  list-style-type: none;
+}
+.number_border {
+  background-color: #dcca87;
+  width: 30px;
+  height: 0px;
+}
+.homeborder {
+  position: absolute;
+  top: 10px;
+  left: 30px;
 }
