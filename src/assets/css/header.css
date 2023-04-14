@@ -1,36 +1,58 @@
 .header_container {
-    background-color: #0C0C0C;
+  background-color: #0c0c0c;
 }
 .header_contain {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    align-items: center;
-    cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+  align-items: center;
+  cursor: pointer;
 }
 .header_contain ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header_contain li {
-    color: #FFFFFF;
-    list-style-type: none;
-    padding: 0 1rem;
+  color: #ffffff;
+  list-style-type: none;
+  padding: 0 1rem;
 }
 .border_line {
-    background-color:  #FFFFFF ;
-    height: 3rem;
-    width: 0.01rem;
+  background-color: #ffffff;
+  height: 3rem;
+  width: 0.01rem;
 }
 .header_contain li:active {
-    color: #DCCA87;
+  color: #dcca87;
 }
-.home_list li{
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0.04em;
-text-align: left;
-
+.home_list li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+.login_list {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.topborder {
+  position: absolute;
+  width: 435px;
+  height: 435px;
+  left: 865px;
+  top: 0px;
+  background-color: #dcca87;
+}
+.bottomborder {
+    position: absolute;
+width: 435px;
+height: 435px;
+left: 633px;
+top: 301px;
+background-color: #DCCA87;
 }
