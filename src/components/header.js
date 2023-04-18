@@ -6,7 +6,7 @@ import CustomButton from "../library/CustomButton";
 import fishfillet from "../assets/images/fishfillet.svg";
 import headerborder from "../assets/images/headerline.svg";
 import homeborder from "../assets/images/scrollline.svg";
-// import numberline from "../assets/images/numberline.svg";q
+import numberline from "../assets/images/numberline.svg";
 
 const Header = () => {
   return (
@@ -58,7 +58,7 @@ const Header = () => {
           <div className="number_list">
             <ul>
               <li>01</li>
-              {/* <img src={numberline} alt="" /> */}
+              <li className="number_border"><img src={numberline} alt="" /></li>
               <li>02</li>
               <li>03</li>
               <li>04</li>

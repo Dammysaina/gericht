@@ -44,7 +44,7 @@
 .home_container {
   display: flex;
   justify-content: space-between;
-  padding: 4rem 10rem;
+  padding: 4rem 10rem 8rem 10rem;
   background-color: #0c0c0c;
   /* position: absolute; */
   z-index: -1;
@@ -120,6 +120,14 @@
   background-color: #dcca87;
   z-index: -1;
 }
+.number_list ul {
+  display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -30rem;
+    left: -10rem;
+    align-items: center;
+}
 .number_list li {
   font-family: "Cormorant Upright";
   font-style: normal;
@@ -133,21 +141,23 @@
   /* F5EFDB */
   color: #f5efdb;
   list-style-type: none;
+  padding: 0 0.5rem;
 }
 .number_border {
-  background-color: #dcca87;
-  width: 30px;
+  border: 1px solid #DCCA87;
+  /* background-color: #dcca87; */
+  width: 16px;
   height: 0px;
 }
 .homeborder {
   position: relative;
-  bottom: -24rem;
+  bottom: -25rem;
   left: 50px;
 }
 .homeborder img {
   position: relative;
   left: 25px;
-  top: -10px;
+  top: -12px;
 }
 .homeborder p {
   font-family: "Cormorant Upright";
