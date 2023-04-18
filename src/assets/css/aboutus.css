@@ -1,0 +1,20 @@
+.aboutus_container {
+  background-image: url(../images/historybg.svg);
+  background-repeat: no-repeat;
+}
+.g_background {
+  background-image: url(../images/G.svg);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+}
+.our_history {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+}
+.bg-yellow {
+  color: #dcca87;
+}
+.text-right {
+  text-align: right;
+}
