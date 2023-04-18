@@ -22,13 +22,13 @@ const Aboutus = () => {
               <CustomButton>Know More</CustomButton>
             </div>
 
-            <div>
-              {/* <img src={gbackground} alt="gbackground" /> */}
+            <div className="knife_bg" >
+              {/* <img className="g_bg" src={gbackground} alt="gbackground" /> */}
 
-              <img src={knife} alt="knife" />
+              <img className="knife_background" src={knife} alt="knife" />
             </div>
             <div>
-              <p className="bg-10 new_flavour bg-yellow">About Us</p>
+              <p className="bg-10 new_flavour bg-yellow">Our History</p>
               <img src={spoon} alt="spoonimage" />
               <p className="flavour_text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis

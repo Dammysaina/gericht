@@ -1,20 +1,35 @@
 .aboutus_container {
   background-image: url(../images/historybg.svg);
   background-repeat: no-repeat;
+  z-index: -1;
+  height: 700px;
 }
-.g_background {
+/* .g_background {
   background-image: url(../images/G.svg);
   background-repeat: no-repeat;
   background-repeat: no-repeat;
-}
+  padding: 10rem;
+} */
 .our_history {
   display: flex;
   justify-content: space-between;
-  padding: 5rem;
+  padding: 15rem 10rem;
 }
 .bg-yellow {
-  color: #dcca87;
+  color: #dcca87 !important;
 }
 .text-right {
   text-align: right;
+}
+.g_bg {
+    z-index: -1;
+}
+.knife_bg {
+    padding: 0 1.5rem;
+}
+.knife_background {
+    /* width: 45px; */
+    position: relative;
+    bottom: 150px;
+    height: 500px;
 }
