@@ -58,7 +58,7 @@ const Header = () => {
           <div className="number_list">
             <ul>
               <li>01</li>
-              <li className="number_border"><img src={numberline} alt="" /></li>
+              <li className="number_border"></li>
               <li>02</li>
               <li>03</li>
               <li>04</li>

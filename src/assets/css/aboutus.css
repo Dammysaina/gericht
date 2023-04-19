@@ -4,12 +4,16 @@
   z-index: -1;
   height: 700px;
 }
-/* .g_background {
-  background-image: url(../images/G.svg);
-  background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  padding: 10rem;
-} */
+.g_background {
+    color: white;
+    font-size: 20px;
+    font-family: "Cormorant Upright, ";
+    position: absolute;
+width: 391px;
+height: 415px;
+left: 765px;
+top: 1421px;
+}
 .our_history {
   display: flex;
   justify-content: space-between;

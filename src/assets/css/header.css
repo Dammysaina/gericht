@@ -51,7 +51,7 @@
 }
 .new_flavour {
   /* Chase the new Flavour */
-  font-family: "Cormorant Upright";
+  font-family: "Cormorant Upright", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 23px;
@@ -66,7 +66,7 @@
 .fine_dining {
   /* The key to Fine dining */
 
-  font-family: "Cormorant Upright";
+  font-family: "Cormorant Upright", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 80px;
@@ -129,7 +129,7 @@
     align-items: center;
 }
 .number_list li {
-  font-family: "Cormorant Upright";
+  font-family: "Cormorant Upright", serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -160,7 +160,7 @@
   top: -12px;
 }
 .homeborder p {
-  font-family: "Cormorant Upright";
+  font-family: "Cormorant Upright", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
