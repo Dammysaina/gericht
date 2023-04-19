@@ -1,39 +1,44 @@
 .aboutus_container {
   background-image: url(../images/historybg.svg);
   background-repeat: no-repeat;
+  background-size: cover;
   z-index: -1;
-  height: 700px;
+  height: 710px;
 }
 .g_background {
-    color: white;
-    font-size: 20px;
-    font-family: "Cormorant Upright, ";
-    position: absolute;
-width: 391px;
-height: 415px;
-left: 765px;
-top: 1421px;
+  color: white;
+  font-size: 420px;
+  font-weight: 700;
+  font-family: "Cormorant Upright";
+  position: absolute;
+  width: 391px;
+  height: 415px;
+  left: 480px;
+  top: 800px;
+  --tw-text-opacity: 0.5;
+  color: rgb(39 39 39 / var(--tw-text-opacity));
 }
 .our_history {
   display: flex;
   justify-content: space-between;
-  padding: 15rem 10rem;
+  padding: 13rem 10rem;
 }
 .bg-yellow {
   color: #dcca87 !important;
+  font-size: 64px !important;
 }
 .text-right {
   text-align: right;
 }
 .g_bg {
-    z-index: -1;
+  z-index: -1;
 }
 .knife_bg {
-    padding: 0 1.5rem;
+  padding: 0 1.5rem;
 }
 .knife_background {
-    /* width: 45px; */
-    position: relative;
-    bottom: 150px;
-    height: 500px;
+  /* width: 45px; */
+  position: relative;
+  bottom: 100px;
+  height: 510px;
 }
