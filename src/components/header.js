@@ -39,9 +39,9 @@ const Header = () => {
       </div>
       <div className="home_container">
         <div className="chase_flavour">
-          <p className="bg-10 new_flavour">Chase The New Flavour</p>
+          <p className=" new_flavour">Chase The New Flavour</p>
           <img src={Spoon} alt="spoonimage" />
-          <p className="bg-10 fine_dining">The key to Fine Dining</p>
+          <p className=" fine_dining">The key to Fine Dining</p>
           <p className="flavour_text">
             Sit tellus lobortis sed senectus vivamus molestie. Condimentum
             volutpat morbi facilisis quam scelerisque sapien. Et, penatibus

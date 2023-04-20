@@ -5,18 +5,13 @@ import "../assets/css/aboutus.css";
 import knife from "../assets/images/knife.svg";
 import cocktail from "../assets/images/cocktail.svg";
 
-
-
-
-
-
 const Aboutus = () => {
   return (
     <div>
       <div className="aboutus_container">
         <p className="g_background">G</p>
         <div className="text-right">
-          <p className="bg-10 new_flavour bg-yellow ">About Us</p>
+          <p className=" new_flavour bg-yellow ">About Us</p>
           <img src={spoon} alt="spoonimage" />
           <p className="flavour_text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
@@ -30,7 +25,7 @@ const Aboutus = () => {
           <img className="knife_background" src={knife} alt="knife" />
         </div>
         <div>
-          <p className="bg-10 new_flavour bg-yellow">Our History</p>
+          <p className=" new_flavour bg-yellow">Our History</p>
           <img src={spoon} alt="spoonimage" />
           <p className="flavour_text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
@@ -40,27 +35,28 @@ const Aboutus = () => {
           <CustomButton>Know More</CustomButton>
         </div>
       </div>
-      <div>
-        <div>
-            <p>Menu That Fits You Palatte</p>
-            <img src={spoon} alt="spoon"/>
-            <p>Today&apos;s Special</p>
+      <div className="menu_palatte">
+        <div className="today_special">
+          <p className=" new_flavour">Menu That Fits You Palatte</p>
+          <img src={spoon} alt="spoon" />
+          <p className="new_flavour bg-yellow ">Today&apos;s Special</p>
         </div>
         <div>
+          <div>
             <div>
-
+                <p>Wine &amp; Beer</p>
             </div>
-            <div>
-                <img src={cocktail} alt="cocktail"/>
-            </div>
-            <div>
-
-            </div>
+            
+          </div>
+          <div>
+            <img src={cocktail} alt="cocktail" />
+          </div>
+          <div></div>
         </div>
-        <div><CustomButton>View More</CustomButton></div>
+        <div>
+          <CustomButton>View More</CustomButton>
+        </div>
       </div>
-    
-
     </div>
   );
 };
