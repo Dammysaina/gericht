@@ -6,7 +6,7 @@ import CustomButton from "../library/CustomButton";
 import fishfillet from "../assets/images/fishfillet.svg";
 import headerborder from "../assets/images/headerline.svg";
 import homeborder from "../assets/images/scrollline.svg";
-import numberline from "../assets/images/numberline.svg";
+// import numberline from "../assets/images/numberline.svg";
 
 const Header = () => {
   return (

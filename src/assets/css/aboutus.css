@@ -3,10 +3,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
-  height: 710px;
+  height: 720px;
+  display: flex;
+  justify-content: space-between;
+  padding: 13rem 10rem 0 10rem;
 }
 .g_background {
-  color: white;
   font-size: 420px;
   font-weight: 700;
   font-family: "Cormorant Upright";
@@ -21,7 +23,7 @@
 .our_history {
   display: flex;
   justify-content: space-between;
-  padding: 13rem 10rem;
+  padding: 13rem 10rem 0 10rem;
 }
 .bg-yellow {
   color: #dcca87 !important;
