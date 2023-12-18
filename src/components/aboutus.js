@@ -4,6 +4,7 @@ import CustomButton from "../library/CustomButton";
 import "../assets/css/aboutus.css";
 import knife from "../assets/images/knife.svg";
 import cocktail from "../assets/images/cocktail.svg";
+import Wine from "./wine";
 
 const Aboutus = () => {
   return (
@@ -46,12 +47,23 @@ const Aboutus = () => {
             <div>
                 <p>Wine &amp; Beer</p>
             </div>
-            
+            <div>
+                <Wine/>
+            </div>
           </div>
           <div>
             <img src={cocktail} alt="cocktail" />
           </div>
-          <div></div>
+          <div>
+            <div>
+            <p>
+            Cocktails
+            </p>
+            </div>
+            <div>
+                <Wine/>
+            </div>
+          </div>
         </div>
         <div>
           <CustomButton>View More</CustomButton>
