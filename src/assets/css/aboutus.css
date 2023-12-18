@@ -51,3 +51,7 @@
     text-align: center;
     
 }
+.chefsword {
+  display: flex;
+  justify-content: space-between;
+}

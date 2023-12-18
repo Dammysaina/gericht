@@ -5,6 +5,7 @@ import "../assets/css/aboutus.css";
 import knife from "../assets/images/knife.svg";
 import cocktail from "../assets/images/cocktail.svg";
 import Wine from "./wine";
+import Chef from "./chefsword";
 
 const Aboutus = () => {
   return (
@@ -68,6 +69,9 @@ const Aboutus = () => {
         <div>
           <CustomButton>View More</CustomButton>
         </div>
+      </div>
+      <div>
+        <Chef/>
       </div>
     </div>
   );

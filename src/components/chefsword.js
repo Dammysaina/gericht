@@ -1,0 +1,28 @@
+import React from "react";
+import spoon from "../assets/images/spoon.svg";
+import lettuceman from "../assets/images/lettuceman.svg";
+import "../assets/css/aboutus.css"
+
+const Chef = () => {
+    return (
+        <div className="chefsword">
+            <div>
+            <img src={lettuceman} alt=""/>
+            </div>
+
+            <div>
+                <div>
+                    <p className=" new_flavour">Chef's Word</p>
+                    <img src={spoon} alt="spoonimage"/>
+                </div>
+                <div>
+                    <p className="bg-yellow new_flavour">What we believe in</p>
+                    <p><span>&amps;</span></p>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+
+export default Chef;
