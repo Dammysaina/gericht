@@ -54,8 +54,11 @@
 .chefsword {
   display: flex;
   /* justify-content: space-between; */
-  padding: 5rem;
+  padding: 4rem 12rem;
   background-image: url(../images/historybg.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.kevinLuo {
+  padding: 5rem 0rem 0rem 5rem;
 }

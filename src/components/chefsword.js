@@ -3,6 +3,8 @@ import spoon from "../assets/images/spoon.svg";
 import lettuceman from "../assets/images/lettuceman.svg";
 import "../assets/css/aboutus.css";
 
+
+
 const Chef = () => {
   return (
     <div className="chefsword">
@@ -10,7 +12,7 @@ const Chef = () => {
         <img src={lettuceman} alt="" />
       </div>
 
-      <div>
+      <div className="kevinLuo">
         <div>
           <p className=" new_flavour">Chef's Word</p>
           <img src={spoon} alt="spoonimage" />
@@ -24,8 +26,8 @@ const Chef = () => {
             scelerisque congue ac consequat, aliquam molestie lectus eu. Congue
             iaculis integer curabitur semper sit nunc.
           </p>
-          <p className="chefsname">Kevin Luo</p>
-          <p>Chef & Founder</p>
+          <p className="chefsname bg-yellow">Kevin Luo</p>
+          <p className="flavour_text">Chef &amp; Founder</p>
           <p className="signature">Kevin Luo</p>
         </div>
       </div>
