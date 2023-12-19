@@ -13,13 +13,13 @@ const Chef = () => {
       </div>
 
       <div className="kevinLuo">
-        <div>
-          <p className=" new_flavour">Chef's Word</p>
+        <div className="chefContainer">
+          <p className="new_flavour">Chef's Word</p>
           <img src={spoon} alt="spoonimage" />
         </div>
         <div>
           <p className="bg-yellow new_flavour">What we believe in</p>
-          <p className="flavour_text">
+          <p className="flavour_text weBelieve">
             <span className="">&apos;&apos;</span>Lorem ipsum dolor sit amet,
             consectetur adipiscing elit auctor sit. auctor sit iaculis in arcu.
             Vulputate nulla lobortis mauris eget sit. Nulla scelerisque

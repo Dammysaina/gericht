@@ -54,11 +54,25 @@
 .chefsword {
   display: flex;
   /* justify-content: space-between; */
-  padding: 4rem 12rem;
+  padding: 6rem 12rem;
   background-image: url(../images/historybg.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+.chefContainer  {
+  padding-top: 2rem;
+}
 .kevinLuo {
   padding: 5rem 0rem 0rem 5rem;
+}
+.signature {
+  color: #AAAAAA;
+  font-family: Bestermind;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 83px;
+  letter-spacing: 0.04em;
+}
+.weBelieve {
+  padding: 4rem 0;
 }
