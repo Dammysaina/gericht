@@ -37,12 +37,39 @@
 }
 .knife_bg {
   padding: 0 1.5rem;
+  position: relative;
+  overflow: hidden;
 }
 .knife_background {
   /* width: 45px; */
   position: relative;
   bottom: 100px;
   height: 510px;
+  top: 0;
+  left: -100%; /* Initially position the knife image off-screen to the left */
+  transition: left 1s ease; /* Smooth transition effect */
+}
+
+/* .knife_background {
+  position: absolute;
+  top: 0;
+  left: -100%; 
+  transition: left 1s ease; 
+} */
+
+/* Define keyframes for sliding in the knife image */
+@keyframes slideInFromLeft {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.knife_bg:hover .knife_background {
+  left: 0; /* Move the knife image to its original position */
+  animation: slideInFromLeft 1s forwards; /* Apply the animation when the section is visible */
 }
 .menu_palatte {
     padding: 4rem 10rem;
@@ -75,4 +102,12 @@
 }
 .weBelieve {
   padding: 4rem 0;
+}
+@media only screen and (max-width: 768px) {
+  .aboutus_container {
+    padding-top: 5rem;
+  }  
+  .bg-yellow {
+    font-size: 30px !important;
+  }
 }

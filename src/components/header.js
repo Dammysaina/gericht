@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Glogo from "../assets/images/Geríchtlogo.svg";
 import "../assets/css/header.css";
 import Spoon from "../assets/images/spoon.svg";
@@ -9,12 +9,25 @@ import homeborder from "../assets/images/scrollline.svg";
 // import numberline from "../assets/images/numberline.svg";
 
 const Header = () => {
+
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [selectedItem, setSelectedItem] = useState(null);
+
+
+  const handleItemClick = (item) => {
+    setSelectedItem(item);
+    setMobileMenuOpen(false);
+  };
+
   return (
     <div className="header_container">
       <div className="header_contain">
         <div>
           <img src={Glogo} alt="Gerichtlogo" />
         </div>
+        {/* <MobileMenuIcon onClick={toggleMobileMenu}> */}
+          {/* <FaBars /> */}
+        {/* </MobileMenuIcon> */}
         <div className="home_list">
           <ul>
             <li>Home</li>

@@ -23,7 +23,6 @@ const Aboutus = () => {
           <CustomButton>Know More</CustomButton>
         </div>
         <div className="knife_bg">
-          {/* <img className="g_bg" src={gbackground} alt="gbackground" /> */}
           <img className="knife_background" src={knife} alt="knife" />
         </div>
         <div>
@@ -46,10 +45,10 @@ const Aboutus = () => {
         <div>
           <div>
             <div>
-                <p>Wine &amp; Beer</p>
+              <p>Wine &amp; Beer</p>
             </div>
             <div>
-                <Wine/>
+              <Wine />
             </div>
           </div>
           <div>
@@ -57,12 +56,10 @@ const Aboutus = () => {
           </div>
           <div>
             <div>
-            <p>
-            Cocktails
-            </p>
+              <p>Cocktails</p>
             </div>
             <div>
-                <Wine/>
+              <Wine />
             </div>
           </div>
         </div>
@@ -71,7 +68,7 @@ const Aboutus = () => {
         </div>
       </div>
       <div>
-        <Chef/>
+        <Chef />
       </div>
     </div>
   );

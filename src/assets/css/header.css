@@ -169,3 +169,26 @@
   /* DCCA87 */
   color: #dcca87;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .home_container {
+    display: block;
+    /* justify-content: space-between;
+    padding: 4rem 10rem 8rem 10rem;
+    background-color: #0c0c0c; */
+    /* position: absolute; */
+    z-index: -1;
+  }
+  .fish_fillet img {
+    position: static;
+  }
+  .number_list ul {
+    display: flex;
+    position: static;
+    justify-content: center;
+  }
+  .homeborder {
+    position: static;
+  }
+}
