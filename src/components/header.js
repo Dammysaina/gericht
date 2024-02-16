@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Glogo from "../assets/images/Geríchtlogo.svg";
+import Glogo from "../assets/images/geríchtlogo.svg";
 import "../assets/css/header.css";
 import Spoon from "../assets/images/spoon.svg";
 import CustomButton from "../library/CustomButton";
